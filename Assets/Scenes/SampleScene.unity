@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.8784314, g: 0.80784315, b: 0.8773853, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 3, z: -10}
+  m_LocalPosition: {x: 3, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -236,8 +236,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b002cec0c08b1434bb3771ab28fcb370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 4
-  height: 7
+  width: 7
+  height: 10
+  dots:
+  - {fileID: 3569333288498654287, guid: bdde7d3168e0b654aa3b2ddcbda493e7, type: 3}
+  - {fileID: 1420512741312784365, guid: ee421e6994a9d8640b82b77ff9174a60, type: 3}
+  - {fileID: 2930582248023775462, guid: 0aa731aeda406954db8aa9baad25c4d7, type: 3}
+  - {fileID: 8391767803736746420, guid: 72ff46c48fd8a0f4f9eaafe776f1b2d1, type: 3}
+  - {fileID: 6674705554114041797, guid: c633728bc46eb2341ae1d79d6d752184, type: 3}
+  - {fileID: 1084793418000377036, guid: 5a1c353cc9ac0c44c8e36cb4b24f5eca, type: 3}
+  - {fileID: 5020707261056132191, guid: 45db12d4a01414444acb8f7144f35eaf, type: 3}
+  - {fileID: 6739317981949093935, guid: 6f6939caa27527a46b4d03d101223df6, type: 3}
   tilePrefabs: {fileID: 337612485158607631, guid: e27a06487d9429b45b40025d4086b0cc, type: 3}
 --- !u!4 &1228328046
 Transform:
